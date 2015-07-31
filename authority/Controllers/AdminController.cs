@@ -140,19 +140,16 @@ namespace authority.Controllers
 
         public ActionResult AnnouncementEdit()
         {
-            int id;
-            if (Request.HttpMethod == "POST")
-            {
-                string title;
-                string content;
+            //int id;
+            //if (Request.HttpMethod == "POST")
+            //{
+            //    string title;
+            //    string content;
                 
-                var a = new DBC.Announcement(id);
-                a.Title = title;
-                a.Content = content;
-            }
-
-
-
+            //    var a = new DBC.Announcement(id);
+            //    a.Title = title;
+            //    a.Content = content;
+            //}
             return View();
         }
         #endregion
